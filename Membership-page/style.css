@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.covid{
+    background-color:rgb(6, 1, 39) ;
+    height: 1rem;
+    padding-top: 0%;
+    color: white;
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.covid-right{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.membership-pic{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+.membership-pic img{
+    height: 22rem;
+    margin: 2rem;
+    border: 5px solid rgb(240, 217, 14);
+    border-radius: 30px;
+}
+
+.membership-detail{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.detail-img img{
+    padding-left: 4rem;
+  height: 20rem;
+}
+.membership-form{
+    display: grid;
+    text-align: center;
+}
+.take-input input{
+border: none;
+border-bottom: 2px solid rgb(1, 1, 66);
+font-size: 1.2rem;
+width: 25rem;
+padding: 2rem 2rem 0rem 0rem;
+}
+input:focus{
+    outline: none;
+}
+.terms{
+    display:flex;
+    margin-left: 13rem;
+    padding: 1rem;
+}
+.submit-btn{
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(10, 1, 53, 0.897);
+}

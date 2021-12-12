@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Orchids</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "images/logo.png" type = "image/png">
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>Orchids</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>FEEL THE ROYALITY HERE</h2>
+                <p>The Only Place Where You can Feel the Right Royality as well as . The World Class fascility</p>
+                <button type = "button" class = "head-btn">EXPLORE</button>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "Membership-page/Membership.html">membership</a></li>
+                <li><a href = "Online Ordering/Online-Ordering.html">Online ordering</a></li>
+                <li><a href = "#rooms">Gallery</a></li>
+                <li><a href = "#customers">Experiences</a></li>
+                <li><a href = "#About-us">About us</a></li>
+                <li><a href = "#contactus">Contact us</a></li>
+                <li><a href = "map/map.html">destinations</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        <!-- end of side navbar -->
+
+        <!-- fullscreen modal -->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal -->
+
+        <!-- body content  -->
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ Food Runner</h2>
+                        <p>The Making of the MouthWatering dishes of ours not only has aromatic taste and flavour but it also hospitality
+                            the essence of True Indian style cooking as well as our Chefs put there love in it.
+                        </p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Refreshment</h2>
+                        <p>In this tiresome world refreshment has been a need to free up the muscles and relax our ever running mind .
+                            Here the best care is taken to provide better sanitized and clean place to enjoy the nature like swimming pools as well as some refreshing juice are provided to all the customrs for free .</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Housekeeping</h2>
+                        <p>We continue to follow the highest standards of cleanliness and hygiene, and in keeping with World Health Organization guidelines, to mitigate the risks associated with the coronavirus.
+                            Please click here to know more.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>We take the best care to provide better services in everything to our customers.Since Security is the basic need of everyone along with food and water we provide the world class security which the room security as well as our customers security during their period of stay.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "0" value = "0" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img1.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Spacious and well futuristic furnished rooms.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Double beded.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Free Wifi,Best Sceneary view.
+                            </li>
+                        </ul>
+                        <p>You can enjoy the Barbaque outside your Balcony. Our Masterchefs will also be provided for your help.</p>
+                        <p>You can have the Offroading trips provided by our Hotels.Safari ride is also provided along with </p>
+                        <p class = "rate">
+                            <span>$180.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img2.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Spacious and well futuristic furnished rooms.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Double beded.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Free Wifi,Best Sceneary view.
+                            </li>
+                        </ul>
+                        <p>The rooms are fully air conditioned.Ipads are provided to our customers for use .</p>
+                        <p>Here the Master bedroom is provided above the stairs and kids play room are in ground apart from that Swimming pools are attached too.</p>
+                        <p class = "rate">
+                            <span>$180.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img3.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Spacious and well futuristic furnished rooms.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Double beded.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Free Wifi,Best Sceneary view.
+                            </li>
+                        </ul>
+                        <p>The room also being spacy also has children romm too.For younger guests there is a kids club, a separate children's pool</p>
+                        <p>There is attached balcony near the window where you can enjoy the Scenary views.All the rooms are wooden finished and having finest of the technologies used for boosting up our customers experiences</p>
+                        <p class = "rate">
+                            <span>$180.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+            </div>
+        </section>
+
+
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>The beautiful Scenary view from Hotel is magnificient and the relaxing vibes rejunuvates the mind.</p>
+                        <img src = "images/cus1.jpg" alt = "customer image">
+                        <span>Marick,India</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>The Place is very calm and relaxing and it is most recomendable for someone who wants a better comfort to strech their bodies out and want complete relaxation.</p>
+                        <img src = "images/cus2.jpg" alt = "customer image">
+                        <span>Elon,Japan</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                        <p>The beautiful gardens and the luring hospitality of Orchids Attracted me to go there and it is actually worth it.</p>
+                        <img src = "images/cus3.jpg" alt = "customer image">
+                        <span>Alex, USA</span>
+                    </div>
+                    <!-- end of single customer -->
+                </div>
+            </div>
+        </section>
+        <!-- end of body content -->
+       
+        <!-- start of feedback content -->
+        <div class="feedback">
+            <button><a href = "Feedback/feedback.html">f<br>e<br>e<br>d<br>b<br>a<br>c<br>k</a></button>
+        </div>
+        <!-- end of feedback content -->
+
+        <!-- Start of About Us -->
+        <div class="container" id="About-us">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="our story" data-aos="fade-up">about us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Welcome to Orchids</h3>
+                    <p>Our story wrote its early chapters in 2006 in the beautiful mountaineous region of Nilgiri where Mr Sai Kiran Mohanty And Mr Aatish Kumar Moharana pioneered the idea of luxury hospitality in India by opening their first hotel.
+                        The lessons self-taught, the inevitable mistakes
+                        made, the wisdom gained, the prestigious awards won. All have formed the compass for successive generations of Orchids.</p>
+                    <p>You will be hard impressed to find properties as beautiful as ours or restaurants, guest rooms and facilities that are as exceptional. But these are not what give Orchids Hotels & Resorts its incomparable reputation.
+                        What our guests speak about most is that singular experience of being truly seen, heard and understood. Something no other hotel or resort can emulate. The astonishing effect one feels from an act, a gesture, a word; that is heart felt.</p>
+                </div>
+                <div class="cont-img" data-aos="fade-left">
+                    <div class="img-box">
+                        <h3>15+ years experience</h3>
+                        <img src="images/welcome.jpg" alt="alt img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of About Us -->
+        
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>About Us </h2>
+                    <p>Best Quality<br>Best Culture<br>Best Hospitality</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href = "#">Blog</a>
+                    <a href = "#">Rooms</a>
+                    <a href = "#">Subscription</a>
+                    <a href = "#">Gift Card</a>
+                </div>
+
+                <div>
+                    <h2>Privacy</h2>
+                    <a href = "#">Career</a>
+                    <a href = "#">About Us</a>
+                    <a href = "#">Contact Us</a>
+                    <a href = "#">Services</a>
+                </div>
+
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            Odisha,India
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +91 9876543210
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            xyz@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+        
+        <script src="script.js"></script>
+    </body>
+</html>
