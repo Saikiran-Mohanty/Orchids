@@ -638,6 +638,15 @@ img{
     top: calc(50% - 50px);
     animation: spin01 10s linear infinite;
 }
+
+@media(max-width: 1120px){
+    .hiide{
+        display: none;
+    }
+    .about-text{
+        width: 100%;
+    }
+}
 .about-img .img-box h3{
     position: absolute;
     left: 50%;
@@ -652,3 +661,9 @@ img{
     font-weight: bold;
     text-transform: capitalize;
 }
+.special{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
