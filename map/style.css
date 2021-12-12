@@ -84,7 +84,9 @@ body{
     top: 60%;
     left: 68%;
   }
-  
+  .no{
+    color: white;
+  }
   
   .row{
   margin: 1rem;
